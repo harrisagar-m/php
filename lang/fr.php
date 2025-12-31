@@ -23,7 +23,31 @@ $lang_array = [
     'user_login' => 'Connexion',
     'user_profile' => 'Profil',
     'user_logout' => 'Déconnexion',
-    'user_placeholder' => 'Page de connexion/profil utilisateur (placeholder).'
+    'user_placeholder' => 'Page de connexion/profil utilisateur (placeholder).',
+    'nav_login' => 'Connexion',
+    'nav_register' => 'S\'inscrire',
+    'nav_logout' => 'Déconnexion',
+    'nav_profile' => 'Profil',
+    'login_title' => 'Connexion',
+    'login_username' => 'Nom d\'utilisateur ou E-mail',
+    'login_password' => 'Mot de passe',
+    'login_submit' => 'Se connecter',
+    'login_no_account' => 'Pas de compte?',
+    'login_register_link' => 'S\'inscrire ici',
+    'register_title' => 'Créer un compte',
+    'register_username' => 'Nom d\'utilisateur',
+    'register_email' => 'E-mail',
+    'register_password' => 'Mot de passe',
+    'register_confirm_password' => 'Confirmer le mot de passe',
+    'register_password_hint' => 'Minimum 6 caractères',
+    'register_submit' => 'S\'inscrire',
+    'register_have_account' => 'Déjà un compte?',
+    'register_login_link' => 'Se connecter ici',
+    'profile_title' => 'Mon Profil',
+    'profile_username' => 'Nom d\'utilisateur',
+    'profile_email' => 'E-mail',
+    'profile_member_since' => 'Membre depuis',
+    'profile_logout' => 'Déconnexion'
 ];
 ?>
 

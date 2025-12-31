@@ -29,7 +29,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <li><a href="development.php"><?php echo $lang_array['nav_development']; ?></a></li>
                 <li><a href="pricing.php"><?php echo $lang_array['nav_pricing']; ?></a></li>
                 <li><a href="contact.php"><?php echo $lang_array['nav_contact']; ?></a></li>
-                <li><a href="user.php"><?php echo $lang_array['nav_user']; ?></a></li>
+                <?php if (isset($_SESSION['user_id'])): ?>
+                    <li><a href="user.php"><?php echo $lang_array['nav_profile']; ?></a></li>
+                    <li><a href="logout.php"><?php echo $lang_array['nav_logout']; ?></a></li>
+                <?php else: ?>
+                    <li><a href="login.php"><?php echo $lang_array['nav_login']; ?></a></li>
+                    <li><a href="register.php"><?php echo $lang_array['nav_register']; ?></a></li>
+                <?php endif; ?>
             </ul>
             <div class="lang-selector">
                 <a href="<?php echo $current_page; ?>?lang=en">EN</a> | 

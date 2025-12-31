@@ -24,3 +24,6 @@ config.local.php
 *.tmp
 *.temp
 
+# Old JSON user storage (now using MySQL)
+users/users.json
+
